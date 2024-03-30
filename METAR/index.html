@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>METAR</title>
+    <script src="/AviaNav/src/javascript/FrontEnd/METAR.js"></script>
 </head>
 <body>
-
+<form>
+    <label class="search">Enter city name:
+        <input type="text" class="searchBox" placeholder="Enter city name">
+        <button type="button" class="searchBtn">Search</button>
+    </label>
+</form>
+<div>
+    <h2>City: </h2>
+    <h2 class="city"></h2>
+</div>
+<div>
+    <h2>Temperature: </h2>
+    <h2 class="temp"></h2>
+</div>
+<div>
+    <h2>Humidity: </h2>
+    <h2 class="humidity"></h2>
+</div>
+<div>
+    <h2>Wind: </h2>
+    <h2 class="wind"></h2>
+    <h2 class="windDir"></h2>
+</div>
 </body>
 </html>
