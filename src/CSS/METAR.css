@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'GidoleFont';
+    src: url(src/GidoleFont/Gidole-Regular.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sideNavMenuIcon {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+}
+
+.sideNavContainer {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sideNavContainer a {
+    padding: 10px 15px 10px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: GidoleFont;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sideNavContainer a:hover {
+    background: linear-gradient(to right, #04bfbf, #07adb0, #099aa1, #0a8992, #0a7784, #096676, #075668, #05465a, #03374d, #012840);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.sideNavContainer .sideNavCloseBtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sideNavContainer {padding-top: 15px;}
+    .sideNavContainer a {font-size: 18px;}
+}
+
+.menuBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #156f77;
+}
+
+.airportSearchContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.airportSearchBtn:active {
+    transform: scale(0.9);
+}
+
+.airportSearchContainer .airportSearch {
+    width: 100%;
+    border: none;
+    border-right: none;
+    padding: 5px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    font-family: GidoleFont;
+    font-size: 20px;
+}
+
+.airportSearchContainer .airportSearchBtn {
+    width: 40px;
+    height: 50px;
+    border: none;
+    background: #024d65;
+    text-align: center;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.airportNameText {
+    font-family: GidoleFont;
+    font-size: 30px;
+    color: white;
+}
+
+.metarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px;
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg, #0f2638 0%, #162e40 25%, #1c3748 50%, #233f50 75%, #2a4858 100%);
+    -webkit-animation: AnimatedBackground 20s ease infinite;
+    animation: AnimatedBackground 20s ease infinite;
+}
+
+@-webkit-keyframes AnimatedBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes AnimatedBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.metarDataTab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #024d65;
+    width: 15vw;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.metarDataInfo, .metarDataText {
+    font-family: GidoleFont;
+    font-size: 20px;
+    color: white;
+}

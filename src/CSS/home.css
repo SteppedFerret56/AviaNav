@@ -1,6 +1,6 @@
 @font-face {
     font-family: GidoleFont;
-    src: url(/AviaNav/src/GidoleFont/Gidole-Regular.ttf) format('truetype');
+    src: url(src/GidoleFont/Gidole-Regular.ttf) format('truetype');
 }
 
 body {

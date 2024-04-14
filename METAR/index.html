@@ -3,31 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>METAR</title>
-    <script src="/AviaNav/src/javascript/FrontEnd/METAR.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/src/CSS/METAR.css"/>
+    <script src="/src/javascript/FrontEnd/METAR.js"></script>
 </head>
 <body>
-<form>
-    <label class="search">Enter city name:
-        <input type="text" class="searchBox" placeholder="Enter city name">
-        <button type="button" class="searchBtn">Search</button>
-    </label>
-</form>
-<div>
-    <h2>City: </h2>
-    <h2 class="city"></h2>
-</div>
-<div>
-    <h2>Temperature: </h2>
-    <h2 class="temp"></h2>
-</div>
-<div>
-    <h2>Humidity: </h2>
-    <h2 class="humidity"></h2>
-</div>
-<div>
-    <h2>Wind: </h2>
-    <h2 class="wind"></h2>
-    <h2 class="windDir"></h2>
-</div>
+    <div class="menuBar">
+        <div>
+            <span onclick="openNavmenu()" class="sideNavMenuIcon"><i class="material-symbols-outlined">menu</i></span>
+            <div class="sideNavContainer">
+                <a class="sideNavCloseBtn" href="javascript:void(0)" onclick="closeNavMenu()"><i class="material-symbols-outlined">close</i></a>
+                <a href="/Home/">Home</a>
+                <a href="index.html">NOTAMS</a>
+                <a href="index.html">Traffic Map</a>
+                <a href="index.html">Flight Route Generator</a>
+                <a href="index.html">Documentation</a>
+            </div>
+        </div>
+        <div class="airportSearchContainer">
+            <input type="text" id="airportSearch" class="airportSearch" placeholder="Enter Airport ICAO">
+            <button class="airportSearchBtn"><i class="material-symbols-outlined">search</i></button>
+        </div>
+    </div>
+    <div class="metarContainer">
+        <h1 class="airportNameText" id="airportNameText">Airport Air Int.</h1>
+        <div class="metarDataTab">
+            <h2 class="metarDataInfo" id="metarDataTemp">0 ℃</h2>
+            <h3 class="metarDataText" id="metarDataClouds">Sunny</h3>
+        </div>
+        <div class="metarDataTab">
+            <h2 class="metarDataInfo" id="metarDataWindSpd">0 kt</h2>
+            <h3 class="metarDataText" id="metarDataWindDir">0°</h3>
+        </div>
+        <div class="metarDataTab">
+            <h2 class="metarDataInfo" id="metarDataVis">0 km</h2>
+            <h3 class="metarDataText">Visibility</h3>
+        </div>
+        <div class="metarDataTab">
+            <h2 class="metarDataInfo" id="metarDataPressure">0 hPa</h2>
+            <h3 class="metarDataText" id="metarDataTime">00:00</h3>
+        </div>
+    </div>
 </body>
 </html>
