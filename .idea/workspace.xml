@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee8a13b8-6ecc-4cb7-9d21-a3e51d585d0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Flight-route-gen/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Airports-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Airports-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Airports-master/airports.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Metar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/flight-route-gen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/METAR/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/METAR/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javascript/BackEnd/METAR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javascript/FrontEnd/METAR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javascript/FrontEnd/home.js" beforeDir="false" />
-    </list>
+    <list default="true" id="ee8a13b8-6ecc-4cb7-9d21-a3e51d585d0a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -63,7 +49,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;beta&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/flynn/OneDrive/Documents/Nextcloud/Projects/SteppedFerret56&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/flynn/OneDrive/Documents/Nextcloud/Projects/Fegal-Web&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -110,7 +96,17 @@
       <workItem from="1715080110277" duration="8325000" />
       <workItem from="1715168615660" duration="4424000" />
       <workItem from="1715173304836" duration="662000" />
-      <workItem from="1715255073138" duration="327000" />
+      <workItem from="1715255073138" duration="2050000" />
+      <workItem from="1715257167190" duration="6033000" />
+      <workItem from="1715598683327" duration="633000" />
+      <workItem from="1715690520397" duration="610000" />
+      <workItem from="1715762926351" duration="2773000" />
+      <workItem from="1715850399809" duration="8605000" />
+      <workItem from="1716033442950" duration="3123000" />
+      <workItem from="1716036582812" duration="3375000" />
+      <workItem from="1716091744602" duration="7835000" />
+      <workItem from="1716109999014" duration="675000" />
+      <workItem from="1716199227876" duration="315000" />
     </task>
     <servers />
   </component>

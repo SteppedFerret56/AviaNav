@@ -1,12 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiKey = '0zEEassQdqJ5hCQZx5arYMrQqY4KpEQP2HtGkWHcJTA';
+    const apiKey = '';
 
     const searchBtn = document.querySelector('.airportSearchBtn');
 
+    const airportNameText = document.getElementById('airportNameText');
+    const metarDataTemp = document.getElementById('metarDataTemp');
+    const metarDataClouds = document.getElementById('metarDataClouds');
+    const metarDataWindSpd = document.getElementById('metarDataWindSpd');
+    const metarDataWindDir = document.getElementById('metarDataWindDir');
+    const metarDataVis = document.getElementById('metarDataVis');
+    const metarDataPressure = document.getElementById('metarDataPressure');
+    const metarDataTime = document.getElementById('metarDataTime');
+
     function getApiUrl() {
         let airportCode = document.querySelector('.airportSearch').value;
-        let apiUrl = `https://avwx.rest/api/metar/${airportCode}?format=json`;
-        return apiUrl;
+        return `https://avwx.rest/api/metar/${airportCode}?format=json`;
     }
 
     if (searchBtn) {
@@ -30,14 +38,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         let datetime = this.response.time.dt;
                         let time = datetime.substring(11, 16) + 'Z';
 
-                        document.getElementById('airportNameText').textContent = station;
-                        document.getElementById('metarDataTemp').textContent = temperature.value + ' ' + units.temperature + '°';
-                        document.getElementById('metarDataClouds').textContent = 'N/A';
-                        document.getElementById('metarDataWindSpd').textContent = wind_speed.value + ' ' + units.wind_speed;
-                        document.getElementById('metarDataWindDir').textContent = wind_direction.value + '°';
-                        document.getElementById('metarDataVis').textContent = visibility.value + ' ' + units.visibility;
-                        document.getElementById('metarDataPressure').textContent = altimeter.value + units.altimeter;
-                        document.getElementById('metarDataTime').textContent = time;
+                        airportNameText.textContent = station;
+                        metarDataTemp.textContent = temperature.value + ' ' + units.temperature + '°';
+                        metarDataClouds.textContent = 'N/A';
+                        metarDataWindSpd.textContent = wind_speed.value + ' ' + units.wind_speed;
+                        metarDataWindDir.textContent = wind_direction.value + '°';
+                        metarDataVis.textContent = visibility.value + ' ' + units.visibility;
+                        metarDataPressure.textContent = altimeter.value + units.altimeter;
+                        metarDataTime.textContent = time;
                     }
                 };
 
@@ -48,13 +56,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
-
-function openNavmenu() {
-    document.querySelector(".sideNavContainer").style.width = "250px";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-}
-
-function closeNavMenu() {
-    document.querySelector(".sideNavContainer").style.width = "0";
-    document.body.style.backgroundColor = "white";
-}

@@ -5,24 +5,25 @@
     <title>METAR</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="/src/CSS/METAR.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/CSS/global.css"/>
     <script src="/src/js/Metar.js"></script>
+    <script src="/src/js/global.js"></script>
 </head>
 <body>
     <div class="menuBar">
-        <div>
-            <span onclick="openNavmenu()" class="sideNavMenuIcon"><i class="material-symbols-outlined">menu</i></span>
-            <div class="sideNavContainer">
-                <a class="sideNavCloseBtn" href="javascript:void(0)" onclick="closeNavMenu()"><i class="material-symbols-outlined">close</i></a>
-                <a href="/Home/">Home</a>
-                <a href="index.html">NOTAMS</a>
-                <a href="index.html">Traffic Map</a>
-                <a href="index.html">Flight Route Generator</a>
-                <a href="index.html">Documentation</a>
-            </div>
-        </div>
-        <div class="airportSearchContainer">
-            <input type="text" id="airportSearch" class="airportSearch" placeholder="Enter Airport ICAO">
-            <button class="airportSearchBtn"><i class="material-symbols-outlined">search</i></button>
+        <object data="../src/Icons/logo.svg" type="image/svg+xml" height="35vh">
+            <span>Your browser does not support SVG</span>
+        </object>
+        <h2>UTC Time</h2>
+        <span onclick="openNavmenu()" class="sideNavMenuIcon material-symbols-outlined">menu</span>
+        <div class="sideNavContainer">
+            <a class="sideNavCloseBtn" href="javascript:void(0)" onclick="closeNavMenu()"><i class="material-symbols-outlined">close</i></a>
+            <a href="/Home/">Home</a>
+            <a href="index.html">METAR</a>
+            <a href="index.html">Flight Route Generator</a>
+            <a href="index.html">NOTAMS</a>
+            <a href="index.html">Traffic Map</a>
+            <a href="index.html">Documentation</a>
         </div>
     </div>
     <div class="metarContainer">

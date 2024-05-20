@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AviaNav</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link href="/src/CSS/home.css" rel="stylesheet">
+    <link href="/src/CSS/global.css" rel="stylesheet">
+    <script src="/src/js/home.js"></script>
+    <script src="/src/js/global.js"></script>
 </head>
 <body>
-    <div class="mainContainer">
-        <img class="backImg" src="../src/Images/homeImg.png" alt="Filler-Img">
-        <div class="navContainer">
-            <a class="navLogo" href="index.html">
-                <object data="../src/Icons/logo.svg" type="image/svg+xml" height="35vh">
-                    <span>Your browser does not support SVG</span>
-                </object>
-            </a>
-            <a class="navButton">NOTAMS</a>
-            <a class="navButton" href="/METAR/">METAR</a>
-            <a class="navButton">Traffic Map</a>
-            <a class="navButton">Flight Route Generator</a>
-            <a class="navButton">Documentation</a>
+    <div class="menuBar">
+        <object data="../src/Icons/logo.svg" type="image/svg+xml" height="35vh">
+            <span>Your browser does not support SVG</span>
+        </object>
+        <h2>UTC Time</h2>
+        <span onclick="openNavmenu()" class="sideNavMenuIcon material-symbols-outlined">menu</span>
+        <div class="sideNavContainer">
+            <a class="sideNavCloseBtn" href="javascript:void(0)" onclick="closeNavMenu()"><i class="material-symbols-outlined">close</i></a>
+            <a href="/Home/">Home</a>
+            <a href="index.html">METAR</a>
+            <a href="index.html">Flight Route Generator</a>
+            <a href="index.html">NOTAMS</a>
+            <a href="index.html">Traffic Map</a>
+            <a href="index.html">Documentation</a>
         </div>
     </div>
+    <img class="backImg" src="../src/Images/homeImg.png" alt="Filler-Img">
 </body>
 </html>
