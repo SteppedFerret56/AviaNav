@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ee8a13b8-6ecc-4cb7-9d21-a3e51d585d0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flight-route-gen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flight-route-gen/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/METAR/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/METAR/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS/METAR.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/METAR.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/flight-route-gen-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/flight-route-gen-functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/flight-route-gen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/flight-route-gen.js" afterDir="false" />
     </list>
@@ -43,28 +46,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "Node.js.FRG.js.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "alpha",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/flynn/OneDrive/Documents/Nextcloud/Projects/Fegal-Web",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.FRG.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;alpha&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/flynn/OneDrive/Documents/Nextcloud/Projects/Aircraft-Master&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\flynn\OneDrive\Documents\GitHub\AviaNav\Home" />
@@ -111,7 +114,9 @@
       <workItem from="1716091744602" duration="7835000" />
       <workItem from="1716109999014" duration="675000" />
       <workItem from="1716199227876" duration="1755000" />
-      <workItem from="1716369046090" duration="3879000" />
+      <workItem from="1716369046090" duration="9857000" />
+      <workItem from="1716460248912" duration="684000" />
+      <workItem from="1716629757030" duration="980000" />
     </task>
     <servers />
   </component>
