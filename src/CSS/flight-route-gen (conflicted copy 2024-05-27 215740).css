@@ -1,0 +1,116 @@
+.titleContainer {
+    align-items: center;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.title {
+    font-family: GidoleFont, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.formContainer, .mapContainer {
+    margin-top: 50px;
+    background-color: #5E5E5E;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    height: 50vh;
+    width: 40vw;
+    padding: 20px;
+}
+
+.mapContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    height: 50vh;
+    width: 40vw;
+    padding: 20px;
+}
+
+.mapText {
+    font-family: GidoleFont, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.formLeft, .formRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.formLeft input, .formRight input, .formRight select, .submitBtn {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.formLeft input, .formRight input, .formRight select {
+    background-color: #252525;
+    color: #ffffff;
+}
+
+.submitBtn {
+    background-color: #48E5C2;
+    color: #252525;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .contentContainer {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .formContainer, .mapContainer {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+.airportDistanceTextContainer {
+    display: flex;
+    justify-content: center;
+    font-family: GidoleFont, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.airportCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: GidoleFont, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #5E5E5E;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+}
