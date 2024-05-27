@@ -101,7 +101,7 @@
     color: #ffffff;
 }
 
-.airportCard {
+.infoCard {
     display: flex;
     flex-direction: column;
     align-items: center;

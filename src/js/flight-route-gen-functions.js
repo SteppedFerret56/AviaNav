@@ -50,7 +50,6 @@ async function logAircraft(url = '', data = {}) {
             'Content-Type': 'application/json'
         },
     });
-    const responseBody = await response.text(); // Read the response body as text
-    console.log(responseBody); // Log the response body
-    return JSON.parse(responseBody); // Parse the response body as JSON
+    const responseBody = await response.json(); // Parse the response body as JSON
+    return responseBody;
 }

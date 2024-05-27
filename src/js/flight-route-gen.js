@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const manufacturerDropdown = document.getElementById('aircraft-manufacturer');
     const modelDropdown = document.getElementById('aircraft-model');
+
     const boeingModels = ['737', '747', '767', '777', '787'];
     const airbusModels = ['A320', 'A330', 'A340', 'A350', 'A380'];
     const gulfstreamModels = ['G550', 'G600', 'G650', 'G700'];
@@ -47,12 +48,17 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             let airport1, airport2, distance;
 
+
             do {
                 airport1 = getRandomAirport(airportArray);
                 airport2 = getRandomAirport(airportArray);
                 distance = calculateDistance(airport1.lat, airport1.lon, airport2.lat, airport2.lon);
             } while (!isWithinRange(distance, newAirportDistanceThreshold, 100));
 
+            const aircraftData = await logAircraft();
+            const speed = aircraftData[0].max_speed_knots;
+            const range = aircraftData[0].range_nautical_miles;
+            const flightTime = distance / speed;
 
             document.getElementById('airportDistanceText').textContent = `The distance between these airports is: ${distance} NM`;
             document.getElementById('airport1').innerHTML = `
@@ -67,7 +73,23 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <p>ICAO: ${airport2.icao}</p>
                 `;
 
-            const aircraftData = await logAircraft();
+            document.getElementById('flightTime').innerHTML = `
+                    <h2>Flight Time</h2>    
+                    <p>Flight Time Hours: ${flightTime.toFixed(2)}</p>
+                    <p>Flight Time Minutes: ${(flightTime * 60).toFixed(2)}</p>
+                    <p id="rangeCheck"></p> 
+                `;
+
+            const rangeCheckElement = document.getElementById('rangeCheck');
+
+            if (range > distance) {
+                rangeCheckElement.textContent = `This aircraft has enough range to fly this route.`;
+                rangeCheckElement.style.color = '#48E5C2';
+            } else {
+                rangeCheckElement.textContent = `This aircraft does not have enough range to fly this route.`;
+                rangeCheckElement.style.color = '#252525';
+            }
+
         });
 
     }
