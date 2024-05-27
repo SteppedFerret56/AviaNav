@@ -7,10 +7,9 @@
     <list default="true" id="ee8a13b8-6ecc-4cb7-9d21-a3e51d585d0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flight-route-gen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flight-route-gen/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/METAR/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/METAR/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSS/METAR.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/METAR.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/flight-route-gen-functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/flight-route-gen-functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/flight-route-gen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/flight-route-gen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/global.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,8 @@
       <workItem from="1716199227876" duration="1755000" />
       <workItem from="1716369046090" duration="9857000" />
       <workItem from="1716460248912" duration="684000" />
-      <workItem from="1716629757030" duration="980000" />
+      <workItem from="1716629757030" duration="1163000" />
+      <workItem from="1716799959959" duration="2495000" />
     </task>
     <servers />
   </component>
