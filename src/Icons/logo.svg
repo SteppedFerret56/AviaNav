@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="149.10968mm"
+   height="37.27742mm"
+   viewBox="0 0 149.10968 37.27742"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-25.724692,-43.311022)">
+    <rect
+       style="fill:#464646;fill-opacity:1;stroke-width:0.550011;stroke-dasharray:none"
+       id="rect5"
+       width="149.10968"
+       height="37.27742"
+       x="25.724691"
+       y="43.311024"
+       ry="6.6427436" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:41.0032px;font-family:Gidole;-inkscape-font-specification:'Gidole, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d24803;fill-opacity:1;stroke-width:0.550013;stroke-dasharray:none"
+       x="31.767422"
+       y="76.154686"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:41.0032px;font-family:Gidole;-inkscape-font-specification:'Gidole, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d24803;fill-opacity:1;stroke-width:0.550013;stroke-dasharray:none"
+         x="31.767422"
+         y="76.154686">Avia<tspan
+   style="fill:#8d8d8d;fill-opacity:1;stroke-width:0.550013;stroke-dasharray:none"
+   id="tspan3">Nav</tspan></tspan></text>
+  </g>
+</svg>

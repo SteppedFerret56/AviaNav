@@ -1,0 +1,65 @@
+.airportSearchContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    width: 20vw;
+}
+
+.airportSearchBtn:active {
+    transform: scale(0.9);
+}
+
+.airportSearchContainer .airportSearch {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    background-color: #5E5E5E;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    font-family: GidoleFont, sans-serif;
+    font-size: 20px;
+}
+
+.airportSearchContainer .airportSearchBtn {
+    width: 40px;
+    height: 50px;
+    border: none;
+    color: white !important;
+    background-color: #5E5E5E;
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.airportNameText {
+    font-family: GidoleFont, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.metarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.metarDataTab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #5E5E5E;
+    width: 15vw;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.metarDataInfo, .metarDataText {
+    font-family: GidoleFont, sans-serif;
+    font-size: 20px;
+    color: white;
+}

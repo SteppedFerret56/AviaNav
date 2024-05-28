@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'GidoleFont';
+    src: url(src/GidoleFont/Gidole-Regular.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+}
+
+.menuBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #252525;
+    color: white;
+    padding: 10px 20px;
+    font-family: GidoleFont, sans-serif;
+}
+
+.sideNavMenuIcon {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+}
+
+.sideNavContainer {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sideNavContainer a {
+    padding: 10px 15px 10px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: GidoleFont, sans-serif;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sideNavContainer a:hover {
+    background: linear-gradient(to right, #04bfbf, #07adb0, #099aa1, #0a8992, #0a7784, #096676, #075668, #05465a, #03374d, #012840);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: 0.3s;
+}
+
+.sideNavContainer .sideNavCloseBtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sideNavContainer {padding-top: 15px;}
+    .sideNavContainer a {font-size: 18px;}
+}
