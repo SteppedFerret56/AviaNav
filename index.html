@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="refresh" content="0;url=/Home">
-    <title>Fegal Web</title>
-    <script src="Scripts.js">
-        window.location.href = "/Home";
-    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AviaNav</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="src/CSS/home.css" rel="stylesheet">
+    <link href="src/CSS/global.css" rel="stylesheet">
+    <script src="src/js/home.js"></script>
+    <script src="src/js/global.js"></script>
 </head>
+<body>
+    <div class="menuBar">
+        <object data="src/Icons/logo.svg" type="image/svg+xml" height="35vh">
+            <span>Your browser does not support SVG</span>
+        </object>
+        <h2 class="utcTime">UTC Time</h2>
+        <span onclick="openNavmenu()" class="sideNavMenuIcon material-symbols-outlined">menu</span>
+        <div class="sideNavContainer">
+            <a class="sideNavCloseBtn" href="javascript:void(0)" onclick="closeNavMenu()"><i class="material-symbols-outlined">close</i></a>
+            <a href="/">Home</a>
+            <a href="/METAR">METAR</a>
+            <a href="/Flight-route-gen">Flight Route Generator</a>
+            <a href="">NOTAMS</a>
+            <a href="">Traffic Map</a>
+            <a href="">Documentation</a>
+        </div>
+    </div>
+    <img class="backImg" src="src/Images/homeImg.png" alt="Filler-Img">
+</body>
 </html>
