@@ -35,13 +35,15 @@ function isWithinRange(number, original, range) {
 
 // Fetch the aircraft API json
 async function logAircraft(url = '', data = {}) {
+    const backendResponse = await getApiResponse();
+
     const manufacturerDropdown = document.getElementById('aircraft-manufacturer');
     const modelDropdown = document.getElementById('aircraft-model');
 
     let selectedManufacturer = manufacturerDropdown.value;
     let selectedModel = modelDropdown.value;
 
-    const aircraftApiKey = '';
+    const aircraftApiKey = backendResponse.keys.apiKeyAircraft;
     const aircraftApiUrl = 'https://api.api-ninjas.com/v1/aircraft?manufacturer=' + selectedManufacturer + '&model=' + selectedModel;
     const response = await fetch(aircraftApiUrl, {
         method: 'GET',

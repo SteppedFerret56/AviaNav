@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiKey = '';
+    let apiKey;
 
     const searchBtn = document.querySelector('.airportSearchBtn');
 
@@ -11,6 +11,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const metarDataVis = document.getElementById('metarDataVis');
     const metarDataPressure = document.getElementById('metarDataPressure');
     const metarDataTime = document.getElementById('metarDataTime');
+
+    async function fetchApiKey() {
+        const backendResponse = await getApiResponse();
+        apiKey = backendResponse.keys.apiKeyMetar;
+    }
+
+    fetchApiKey();
 
     function getApiUrl() {
         let airportCode = document.querySelector('.airportSearch').value;
@@ -29,10 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 request.onreadystatechange = function () {
                     if (this.readyState === 4) {
-                        console.log('Status:', this.status);
-                        console.log('Headers:', this.getAllResponseHeaders());
-                        console.log('Body:', this.response);
-
                         const { station, temperature, units, wind_speed, wind_direction, visibility, altimeter } = this.response;
 
                         let datetime = this.response.time.dt;

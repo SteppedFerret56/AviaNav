@@ -1,3 +1,13 @@
+async function getApiResponse() {
+    try {
+        const response = await fetch('https://my-app.flynnjacob42.workers.dev/');
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error:', error);
+    }
+}
+
 function openNavmenu() {
     document.querySelector(".sideNavContainer").style.width = "250px";
 }
@@ -23,4 +33,3 @@ function utcTime() {
 }
 
 setInterval(utcTime, 1000);
-
