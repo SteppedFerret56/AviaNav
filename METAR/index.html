@@ -14,7 +14,7 @@
         <object data="../src/Icons/logo.svg" type="image/svg+xml" height="35vh">
             <span>Your browser does not support SVG</span>
         </object>
-        <h2>UTC Time</h2>
+        <h2 class="utcTime">UTC Time</h2>
         <span onclick="openNavmenu()" class="sideNavMenuIcon material-symbols-outlined">menu</span>
         <div class="sideNavContainer">
             <a class="sideNavCloseBtn" href="javascript:void(0)" onclick="closeNavMenu()"><i class="material-symbols-outlined">close</i></a>
@@ -25,6 +25,10 @@
             <a href="index.html">Traffic Map</a>
             <a href="index.html">Documentation</a>
         </div>
+    </div>
+    <div class="airportSearchContainer">
+        <input class="airportSearch" type="text" placeholder="Search for an airport">
+        <button class="airportSearchBtn" onclick="searchAirport()"><i class="material-symbols-outlined">search</i></button>
     </div>
     <div class="metarContainer">
         <h1 class="airportNameText" id="airportNameText">Airport Air Int.</h1>

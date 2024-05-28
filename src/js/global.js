@@ -13,3 +13,14 @@ document.addEventListener('click', function(event) {
         closeNavMenu();
     }
 });
+
+function utcTime() {
+    const utcTimeText = document.querySelector('.utcTime');
+
+    let utcString = new Date().toUTCString();
+    let utcTime = utcString.substring(17, 25);
+    utcTimeText.textContent = `UTC: ${utcTime}`;
+}
+
+setInterval(utcTime, 1000);
+

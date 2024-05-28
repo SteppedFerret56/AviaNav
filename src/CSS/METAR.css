@@ -3,6 +3,7 @@
     justify-content: center;
     flex-direction: row;
     padding: 10px;
+    width: 20vw;
 }
 
 .airportSearchBtn:active {
@@ -12,11 +13,11 @@
 .airportSearchContainer .airportSearch {
     width: 100%;
     border: none;
-    border-right: none;
     padding: 5px;
+    background-color: #5E5E5E;
     border-radius: 10px 0 0 10px;
     outline: none;
-    font-family: GidoleFont;
+    font-family: GidoleFont, sans-serif;
     font-size: 20px;
 }
 
@@ -24,16 +25,16 @@
     width: 40px;
     height: 50px;
     border: none;
-    background: #024d65;
+    color: white !important;
+    background-color: #5E5E5E;
     text-align: center;
-    color: white;
     border-radius: 0 10px 10px 0;
     cursor: pointer;
     font-size: 20px;
 }
 
 .airportNameText {
-    font-family: GidoleFont;
+    font-family: GidoleFont, sans-serif;
     font-size: 30px;
     color: white;
 }
@@ -44,34 +45,6 @@
     justify-content: center;
     flex-direction: row;
     padding: 15px;
-    background-size: 300% 300%;
-    background-image: linear-gradient(-45deg, #0f2638 0%, #162e40 25%, #1c3748 50%, #233f50 75%, #2a4858 100%);
-    -webkit-animation: AnimatedBackground 20s ease infinite;
-    animation: AnimatedBackground 20s ease infinite;
-}
-
-@-webkit-keyframes AnimatedBackground {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-@keyframes AnimatedBackground {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
 }
 
 .metarDataTab {
@@ -79,14 +52,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #024d65;
+    background-color: #5E5E5E;
     width: 15vw;
     margin: 10px;
     border-radius: 10px;
 }
 
 .metarDataInfo, .metarDataText {
-    font-family: GidoleFont;
+    font-family: GidoleFont, sans-serif;
     font-size: 20px;
     color: white;
 }

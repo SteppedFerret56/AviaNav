@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8a13b8-6ecc-4cb7-9d21-a3e51d585d0a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS/flight-route-gen (conflicted copy 2024-05-27 215740).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/flight-route-gen-functions (conflicted copy 2024-05-27 210825).js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +50,9 @@
     &quot;Node.js.FRG.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;beta&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;alpha&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/flynn/OneDrive/Documents/Nextcloud/Projects/Fegal-Web&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/flynn/OneDrive/Documents/Nextcloud/Projects/Aircraft-Master&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -110,6 +110,11 @@
       <workItem from="1716091744602" duration="7835000" />
       <workItem from="1716109999014" duration="675000" />
       <workItem from="1716199227876" duration="1755000" />
+      <workItem from="1716369046090" duration="9857000" />
+      <workItem from="1716460248912" duration="684000" />
+      <workItem from="1716629757030" duration="1163000" />
+      <workItem from="1716799959959" duration="7584000" />
+      <workItem from="1716876396543" duration="405000" />
     </task>
     <servers />
   </component>

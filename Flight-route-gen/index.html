@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
     <link rel="stylesheet" type="text/css" href="/src/CSS/flight-route-gen.css"/>
     <link rel="stylesheet" type="text/css" href="/src/CSS/global.css"/>
     <script src="/src/js/flight-route-gen-functions.js"></script>
@@ -18,7 +18,7 @@
         <object data="../src/Icons/logo.svg" type="image/svg+xml" height="35vh">
             <span>Your browser does not support SVG</span>
         </object>
-        <h2>UTC Time</h2>
+        <h2 class="utcTime">UTC Time</h2>
         <span onclick="openNavmenu()" class="sideNavMenuIcon material-symbols-outlined">menu</span>
         <div class="sideNavContainer">
             <a class="sideNavCloseBtn" href="javascript:void(0)" onclick="closeNavMenu()"><i class="material-symbols-outlined">close</i></a>
@@ -53,7 +53,7 @@
                 </select>
                 <label for="aircraft-model"></label>
                 <select id="aircraft-model">
-                    <option value="">Select Aircraft Model</option>
+                    <option value="">Select Aircraft Manufacturer First</option>
                 </select>
                 <button class="submitBtn" id="submitBtn">Submit</button>
             </div>
@@ -65,18 +65,20 @@
     <div class="airportDistanceTextContainer">
         <h2 id="airportDistanceText">Distance: </h2>
     </div>
-    <div id="airport1" class="airportCard">
+    <div id="airport1" class="infoCard">
         <h2>Departure</h2>
         <p>Name: </p>
         <p>ICAO: </p>
     </div>
-    <div id="airport2" class="airportCard">
+    <div id="airport2" class="infoCard">
         <h2>Arrival</h2>
         <p>Name: </p>
         <p>ICAO: </p>
     </div>
-    <div>
-        <h2 id="flightTime">Flight Time: </h2>
+    <div id="flightTime" class="infoCard">
+        <h2>Flight Time: </h2>
+        <p>Flight Time Hours:</p>
+        <p>Flight Time Minutes:</p>
     </div>
 </body>
 </html>
